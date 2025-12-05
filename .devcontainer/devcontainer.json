@@ -1,0 +1,25 @@
+{
+  "name": "ecalatayud Hugo Blog Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+
+  // This is where your project will be mounted inside the container
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+
+  // Forward Hugo's default server port
+  "forwardPorts": [1313],
+
+  // Optional: VS Code extensions you’ll probably want
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "yzhang.markdown-all-in-one",
+        "bungcip.better-toml"
+      ]
+    }
+  },
+
+  // Check Hugo is installed
+  "postCreateCommand": "hugo version"
+}
