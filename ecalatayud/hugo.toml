@@ -1,3 +1,70 @@
-baseURL = 'https://example.org/'
+baseURL = 'http://localhost:1313/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Eduardo Calatayud - AI & Tech'
+theme = "PaperMod"
+defaultContentLanguage = "en"
+pagination.pagerSize = 10
+
+[params]
+  defaultTheme = "auto"
+  ShowToc = true
+  ShowCodeCopyButtons = true
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+
+  [params.profileMode]
+    enabled = true
+    title = "Hi, I'm Eduardo 👋"
+    subtitle = "Engineer transitioning from data/BI into Machine Learning and AI."
+    imageUrl = "images/avatar.jpg"
+    imageWidth = 160
+    imageHeight = 160
+    imageTitle = "Eduardo"
+
+    [[params.profileMode.buttons]]
+      name = "Foundations"
+      url = "/foundations/"
+
+    [[params.profileMode.buttons]]
+      name = "Study log"
+      url = "/study-log/"
+
+    [[params.profileMode.buttons]]
+      name = "Projects"
+      url = "/projects/"
+
+    [[params.profileMode.buttons]]
+      name = "Random Thoughts"
+      url = "/random-thoughts/"
+
+    [[params.profileMode.buttons]]
+      name = "About"
+      url = "/about/"
+
+[menu]
+
+  [[menu.main]]
+    name = "Foundations"
+    url = "/foundations/"
+    weight = 10
+
+  [[menu.main]]
+    name = "Study log"
+    url = "/study-log/"
+    weight = 20
+
+  [[menu.main]]
+    name = "Random Thoughts"
+    url = "/random-thoughts/"
+    weight = 10
+
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 20
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 40

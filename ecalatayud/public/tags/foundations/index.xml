@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Foundations on Eduardo Calatayud - AI &amp; Tech</title>
+    <link>http://localhost:1313/tags/foundations/</link>
+    <description>Recent content in Foundations on Eduardo Calatayud - AI &amp; Tech</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/foundations/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Overfitting and underfitting explained with simple examples</title>
+      <link>http://localhost:1313/foundations/overfitting-underfitting/</link>
+      <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/foundations/overfitting-underfitting/</guid>
+      <description>&lt;p&gt;Short placeholder content for now – this will become a full article about
+overfitting and underfitting.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

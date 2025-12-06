@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Random-Thoughts on Eduardo Calatayud - AI &amp; Tech</title>
+    <link>http://localhost:1313/random-thoughts/</link>
+    <description>Recent content in Random-Thoughts on Eduardo Calatayud - AI &amp; Tech</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/random-thoughts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Random Thoughts</title>
+      <link>http://localhost:1313/random-thoughts/something-random/</link>
+      <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/random-thoughts/something-random/</guid>
+      <description>&lt;p&gt;This will describe my first small ML project once it&amp;rsquo;s ready.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
