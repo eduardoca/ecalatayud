@@ -2,7 +2,7 @@
 title: About
 ---
 
-II’m Eduardo, an engineer from Barcelona who has spent most of my working life building full-stack applications. About a year ago I shifted my focus to data and analytics, and that path has led me straight into modern machine learning, deep learning and their mathematical foundations. More recently I’ve decided it’s a good idea to lean into properly math-heavy AI as well.
+I’m Eduardo, an engineer from Barcelona who has spent most of my working life building full-stack applications. About a year ago I shifted my focus to data and analytics, and that path has led me straight into modern machine learning, deep learning and their mathematical foundations. More recently I’ve decided it’s a good idea to lean into properly math-heavy AI as well.
 
 This site is where I organize what I’m learning. I like to take concepts like gradient descent, overfitting, transformers or multimodal models and break them down in a way that’s mathematically precise but still readable if you’re not a full-time researcher. Most articles start as rough study notes; what you see here is the cleaned-up version after a few rounds of “arguing with the equations”.
 
