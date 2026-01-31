@@ -4,72 +4,74 @@ title = 'Eduardo Calatayud - AI & Tech'
 theme = "PaperMod"
 defaultContentLanguage = "en"
 pagerSize = 10
+enableRobotsTXT = true
+canonifyURLs = true
 
 [params]
-  defaultTheme = "auto"
-  ShowToc = true
-  ShowCodeCopyButtons = true
-  ShowReadingTime = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  math = true          # enable math globally
+defaultTheme = "auto"
+ShowToc = true
+ShowCodeCopyButtons = true
+ShowReadingTime = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+math = true                # enable math globally
 
 [params.assets]
-  disableHLJS = false
-  KaTeX = true         # tell PaperMod “I want KaTeX assets”
+disableHLJS = false
+KaTeX = true        # tell PaperMod “I want KaTeX assets”
 
 [params.profileMode]
-  enabled = true
-  title = "Hi, I'm Eduardo 👋"
-  subtitle = "Engineer exploring modern AI, deep learning, and their mathematical foundations."
-  imageUrl = "images/avatar.jpg"
-  imageWidth = 160
-  imageHeight = 160
-  imageTitle = "Eduardo"
+enabled = true
+title = "Hi, I'm Eduardo 👋"
+subtitle = "Engineer exploring modern AI, deep learning, and their mathematical foundations."
+imageUrl = "images/avatar.jpg"
+imageWidth = 160
+imageHeight = 160
+imageTitle = "Eduardo"
 
-  [[params.profileMode.buttons]]
-    name = "Foundations"
-    url = "/foundations/"
+[[params.profileMode.buttons]]
+name = "Foundations"
+url = "/foundations/"
 
-  [[params.profileMode.buttons]]
-    name = "Study log"
-    url = "/study-log/"
+[[params.profileMode.buttons]]
+name = "Study log"
+url = "/study-log/"
 
-  [[params.profileMode.buttons]]
-    name = "Projects"
-    url = "/projects/"
+[[params.profileMode.buttons]]
+name = "Projects"
+url = "/projects/"
 
-  [[params.profileMode.buttons]]
-    name = "Random Thoughts"
-    url = "/random-thoughts/"
+[[params.profileMode.buttons]]
+name = "Random Thoughts"
+url = "/random-thoughts/"
 
-  [[params.profileMode.buttons]]
-    name = "About"
-    url = "/about/"
+[[params.profileMode.buttons]]
+name = "About"
+url = "/about/"
 
 [menu]
 
-  [[menu.main]]
-    name = "Foundations"
-    url = "/foundations/"
-    weight = 10
+[[menu.main]]
+name = "Foundations"
+url = "/foundations/"
+weight = 10
 
-  [[menu.main]]
-    name = "Study log"
-    url = "/study-log/"
-    weight = 20
+[[menu.main]]
+name = "Study log"
+url = "/study-log/"
+weight = 20
 
-  [[menu.main]]
-    name = "Random Thoughts"
-    url = "/random-thoughts/"
-    weight = 10
+[[menu.main]]
+name = "Random Thoughts"
+url = "/random-thoughts/"
+weight = 10
 
-  [[menu.main]]
-    name = "Projects"
-    url = "/projects/"
-    weight = 20
+[[menu.main]]
+name = "Projects"
+url = "/projects/"
+weight = 20
 
-  [[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 40
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 40
