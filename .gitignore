@@ -1,2 +1,7 @@
 public/
 resources/
+
+.obsidian/
+
+.DS_Store
+Thumbs.db
