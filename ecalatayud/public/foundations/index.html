@@ -72,6 +72,37 @@
     }
 
 </script>
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css">
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js"></script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js"></script>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        if (typeof renderMathInElement === "function") {
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true }
+                ],
+                throwOnError: false
+            });
+        } else {
+            console.error("KaTeX auto-render not loaded.");
+        }
+    });
+</script>
+
 </head>
 <body class="list" id="top">
     <header class="header">
@@ -139,15 +170,39 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Overfitting and underfitting explained with simple examples
+    <h2 class="entry-hint-parent">AI Basics: A Conceptual Map
     </h2>
   </header>
   <div class="entry-content">
-    <p>Short placeholder content for now – this will become a full article about overfitting and underfitting.
-</p>
+    <p>When people say “AI” today, they often mean systems that:
+recognise objects in images understand and generate text answer questions, write code, or summarise documents combine text, images, audio, video… Most of these systems are based on modern machine learning, especially deep learning, and more recently large language models (LLMs) and multimodal models.
+This post builds a conceptual map of modern AI: how we got here, what the key building blocks are, and where backpropagation, transformers, LLMs and multimodal models fit in.
+...</p>
   </div>
-  <footer class="entry-footer"><span title='2025-12-05 00:00:00 +0000 UTC'>December 5, 2025</span>&nbsp;·&nbsp;<span>1 min</span></footer>
-  <a class="entry-link" aria-label="post link to Overfitting and underfitting explained with simple examples" href="http://localhost:1313/foundations/overfitting-underfitting/"></a>
+  <footer class="entry-footer"><span title='2025-12-06 00:00:00 +0000 UTC'>December 6, 2025</span>&nbsp;·&nbsp;<span>6 min</span></footer>
+  <a class="entry-link" aria-label="post link to AI Basics: A Conceptual Map" href="http://localhost:1313/foundations/ai-basics-conceptual-map/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Underfitting and Overfitting: How Models Go Wrong
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Model $(X,Y) = x &#43; y \frac{a}{b} \mathcal{XYD}$
+When we train a model, we want it to generalise: perform well not only on the data it has seen, but also on new, unseen data.
+Two of the most common ways this can go wrong are:
+Underfitting – the model is too simple to capture the underlying pattern Overfitting – the model fits the training data too closely, including noise, and fails to generalise Understanding these two behaviours, and how to recognise them in practice, is one of the most important skills in machine learning.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-12-06 00:00:00 +0000 UTC'>December 6, 2025</span>&nbsp;·&nbsp;<span>6 min</span></footer>
+  <a class="entry-link" aria-label="post link to Underfitting and Overfitting: How Models Go Wrong" href="http://localhost:1313/foundations/overfitting-underfitting/"></a>
 </article>
     </main>
     

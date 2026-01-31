@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Study-Log on Eduardo Calatayud - AI &amp; Tech</title>
+    <link>https://ecalatayud.com/tags/study-log/</link>
+    <description>Recent content in Study-Log on Eduardo Calatayud - AI &amp; Tech</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 05 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ecalatayud.com/tags/study-log/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 1 – Refreshing statistics and probability for ML</title>
+      <link>https://ecalatayud.com/study-log/week-01/</link>
+      <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://ecalatayud.com/study-log/week-01/</guid>
+      <description>&lt;p&gt;This is a placeholder for my first weekly study log.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

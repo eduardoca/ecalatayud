@@ -1,9 +1,9 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'https://ecalatayud.com/'
 languageCode = 'en-us'
 title = 'Eduardo Calatayud - AI & Tech'
 theme = "PaperMod"
 defaultContentLanguage = "en"
-pagination.pagerSize = 10
+pagerSize = 10
 
 [params]
   defaultTheme = "auto"
@@ -12,35 +12,40 @@ pagination.pagerSize = 10
   ShowReadingTime = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
+  math = true          # enable math globally
 
-  [params.profileMode]
-    enabled = true
-    title = "Hi, I'm Eduardo 👋"
-    subtitle = "Engineer transitioning from data/BI into Machine Learning and AI."
-    imageUrl = "images/avatar.jpg"
-    imageWidth = 160
-    imageHeight = 160
-    imageTitle = "Eduardo"
+[params.assets]
+  disableHLJS = false
+  KaTeX = true         # tell PaperMod “I want KaTeX assets”
 
-    [[params.profileMode.buttons]]
-      name = "Foundations"
-      url = "/foundations/"
+[params.profileMode]
+  enabled = true
+  title = "Hi, I'm Eduardo 👋"
+  subtitle = "Engineer exploring modern AI, deep learning, and their mathematical foundations."
+  imageUrl = "images/avatar.jpg"
+  imageWidth = 160
+  imageHeight = 160
+  imageTitle = "Eduardo"
 
-    [[params.profileMode.buttons]]
-      name = "Study log"
-      url = "/study-log/"
+  [[params.profileMode.buttons]]
+    name = "Foundations"
+    url = "/foundations/"
 
-    [[params.profileMode.buttons]]
-      name = "Projects"
-      url = "/projects/"
+  [[params.profileMode.buttons]]
+    name = "Study log"
+    url = "/study-log/"
 
-    [[params.profileMode.buttons]]
-      name = "Random Thoughts"
-      url = "/random-thoughts/"
+  [[params.profileMode.buttons]]
+    name = "Projects"
+    url = "/projects/"
 
-    [[params.profileMode.buttons]]
-      name = "About"
-      url = "/about/"
+  [[params.profileMode.buttons]]
+    name = "Random Thoughts"
+    url = "/random-thoughts/"
+
+  [[params.profileMode.buttons]]
+    name = "About"
+    url = "/about/"
 
 [menu]
 

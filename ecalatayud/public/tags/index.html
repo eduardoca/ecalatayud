@@ -72,6 +72,37 @@
     }
 
 </script>
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css">
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js"></script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js"></script>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        if (typeof renderMathInElement === "function") {
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true }
+                ],
+                throwOnError: false
+            });
+        } else {
+            console.error("KaTeX auto-render not loaded.");
+        }
+    });
+</script>
+
 </head>
 <body class="list" id="top">
     <header class="header">
@@ -137,7 +168,19 @@
 
 <ul class="terms-tags">
     <li>
-        <a href="http://localhost:1313/tags/foundations/">foundations <sup><strong><sup>1</sup></strong></sup> </a>
+        <a href="http://localhost:1313/tags/ai-basics/">ai-basics <sup><strong><sup>1</sup></strong></sup> </a>
+    </li>
+    <li>
+        <a href="http://localhost:1313/tags/deep-learning/">deep-learning <sup><strong><sup>1</sup></strong></sup> </a>
+    </li>
+    <li>
+        <a href="http://localhost:1313/tags/foundations/">foundations <sup><strong><sup>2</sup></strong></sup> </a>
+    </li>
+    <li>
+        <a href="http://localhost:1313/tags/generalisation/">generalisation <sup><strong><sup>1</sup></strong></sup> </a>
+    </li>
+    <li>
+        <a href="http://localhost:1313/tags/llms/">llms <sup><strong><sup>1</sup></strong></sup> </a>
     </li>
     <li>
         <a href="http://localhost:1313/tags/ml/">ml <sup><strong><sup>2</sup></strong></sup> </a>
@@ -156,6 +199,9 @@
     </li>
     <li>
         <a href="http://localhost:1313/tags/study-log/">study-log <sup><strong><sup>1</sup></strong></sup> </a>
+    </li>
+    <li>
+        <a href="http://localhost:1313/tags/transformers/">transformers <sup><strong><sup>1</sup></strong></sup> </a>
     </li>
 </ul>
     </main>

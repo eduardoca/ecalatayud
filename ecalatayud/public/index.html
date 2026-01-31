@@ -73,6 +73,37 @@
     }
 
 </script>
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css">
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js"></script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js"></script>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        if (typeof renderMathInElement === "function") {
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true }
+                ],
+                throwOnError: false
+            });
+        } else {
+            console.error("KaTeX auto-render not loaded.");
+        }
+    });
+</script>
+
 </head>
 <body class="list" id="top">
     <header class="header">
@@ -136,7 +167,7 @@
         <img draggable="false" src="http://localhost:1313/images/avatar.jpg" alt="Eduardo" title="Eduardo"
             height="160" width="160" />
         <h1>Hi, I&rsquo;m Eduardo 👋</h1>
-        <span>Engineer transitioning from data/BI into Machine Learning and AI.</span><div class="social-icons" >
+        <span>Engineer exploring modern AI, deep learning, and their mathematical foundations.</span><div class="social-icons" >
 </div>
 
         <div class="buttons">
