@@ -15,7 +15,10 @@ ShowCodeCopyButtons = true
 ShowReadingTime = true
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
-math = true                # enable math globally
+math = true                                                                               # enable math globally
+env = "production"
+description = "Articles on modern AI, deep learning, and their mathematical foundations."
+images = ["images/og-default.png"]
 
 [params.assets]
 disableHLJS = false
