@@ -2,7 +2,7 @@
 title: "Underfitting and Overfitting: How Models Go Wrong"
 date: 2025-12-06
 tags: ["foundations", "ml-basics", "generalisation"]
-draft: false
+draft: true
 ---
 
 Model $(X,Y) = x + y \frac{a}{b} \mathcal{XYD}$
