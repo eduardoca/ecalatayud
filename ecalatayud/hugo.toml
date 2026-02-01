@@ -8,6 +8,7 @@ enableRobotsTXT = true
 canonifyURLs = true
 
 [params]
+themeColor = "#0f1115"
 defaultTheme = "auto"
 ShowToc = true
 ShowCodeCopyButtons = true
